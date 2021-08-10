@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="extras/src/webm-writer-0.2.0.js"></script>
+    <script src="extras/src/download.js"></script>
+    <script src="extras/src/CCapture.js"></script>
+    <!-- <script src="extras/CanvasRecorder-master/CanvasRecorder.js"></script> -->
     <title>Sample_Output</title>
   </head>
   <body>
@@ -14,8 +18,15 @@
         margin: 0;
       }
     </style>
+    <script>
+      const capturer = new CCapture({
+        framerate: 60,
+        format: "webm",
+        verbose: true,
+      });
+    </script>
     <script src="helper/widthHeightHelper.js"></script>
     <script src="algorithms/sinCos.js"></script>
-    <script src="app.js"></script>
+    <script id="animation" src="app.js"></script>
   </body>
 </html>

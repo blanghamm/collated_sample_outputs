@@ -1,0 +1,11 @@
+{
+  "liveServer.settings.port": 5501,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.https": {
+    "enable": true,
+    "cert": "/Users/benlangham/Documents/Uni/Devised Project 1/Pre-production/p5js/Sample_Output/https/localhost.pem",
+    "key": "/Users/benlangham/Documents/Uni/Devised Project 1/Pre-production/p5js/Sample_Output/https/localhost.key",
+    "passphrase": "L4ngh412m%"
+  }
+}
